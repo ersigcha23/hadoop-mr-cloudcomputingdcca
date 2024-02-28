@@ -366,3 +366,11 @@ docker-compose down
 docker rm -f $(docker ps -a -q)
 docker volume rm $(docker volume ls -q)
 ```
+
+### References consulted for this tutorial
+
+1. [Hadoop Map Reduce Docker](https://github.com/MartinCastroAlvarez/hadoop-hdfs-map-reduce-docker)
+
+2. [Setting up Hadoop with Docker and using MapReduce framework](https://medium.com/@guillermovc/setting-up-hadoop-with-docker-and-using-mapreduce-framework-c1cd125d4f7b)
+
+
